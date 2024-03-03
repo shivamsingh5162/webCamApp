@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video</title>
+</head>
+<body>
+
+    <h2>Play Video</h2>
+
+    <video width="640" height="360" controls>
+        <source th:src="@{'/videos/play/' + ${fileName}}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
