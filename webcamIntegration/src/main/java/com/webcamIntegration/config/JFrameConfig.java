@@ -30,10 +30,10 @@ public class JFrameConfig extends JFrame {
 
     private JButton recordButton;
     private Webcam webcam;
-    private IMediaWriter writer;
+    private MediaWriter writer;
     private File saveFile;
     private JLabel responseLabel;  // New JLabel to display the response message
-
+// youtube
 
     public JFrameConfig() throws IOException {
         initializeUI();
